@@ -5,9 +5,9 @@ public class Main {
         empleado emi = new empleado("Emiliano","Psicologo");
         System.out.println(bauti.toString());
         System.out.println(emi.toString());
-        luis.aumentarSalario();
+        bauti.aumentarSalario();
         System.out.println(bauti.toString());
-        juan.aumentarSalario(250000);
+        emi.aumentarSalario(250000);
         System.out.println(emi.toString());
         empleado.mostrarEmpleados();
     }
