@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        empleado.mostrarEmpleados();
+        empleado bauti = new empleado(912,"Bautista","Mecanico", 2350000.00);
+        empleado emi = new empleado("Emiliano","Psicologo");
+        System.out.println(bauti.toString());
+        System.out.println(emi.toString());
+        luis.aumentarSalario();
+        System.out.println(bauti.toString());
+        juan.aumentarSalario(250000);
+        System.out.println(emi.toString());
+        empleado.mostrarEmpleados();
+    }
+}
